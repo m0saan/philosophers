@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /goinfre/moboustt/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /goinfre/moboustt/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/moboustt/CLionProjects/Philosophers
+CMAKE_SOURCE_DIR = /Users/moboustt/Desktop/_Philosophers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/moboustt/CLionProjects/Philosophers/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/moboustt/Desktop/_Philosophers/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = /Users/moboustt/CLionProjects/Philosophers/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/goinfre/moboustt/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/goinfre/moboustt/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/CLionProjects/Philosophers/cmake-build-debug/CMakeFiles /Users/moboustt/CLionProjects/Philosophers/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/Desktop/_Philosophers/cmake-build-debug/CMakeFiles /Users/moboustt/Desktop/_Philosophers/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/CLionProjects/Philosophers/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/Desktop/_Philosophers/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,71 +130,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Philosophers
+# Target rules for targets named _Philosophers
 
 # Build rule for target.
-Philosophers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Philosophers
-.PHONY : Philosophers
+_Philosophers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _Philosophers
+.PHONY : _Philosophers
 
 # fast build rule for target.
-Philosophers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Philosophers.dir/build.make CMakeFiles/Philosophers.dir/build
-.PHONY : Philosophers/fast
+_Philosophers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/build
+.PHONY : _Philosophers/fast
 
-main.o: main.c.o
+philo_one/philosophers.o: philo_one/philosophers.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Philosophers.dir/build.make CMakeFiles/Philosophers.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Philosophers.dir/build.make CMakeFiles/Philosophers.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Philosophers.dir/build.make CMakeFiles/Philosophers.dir/main.c.s
-.PHONY : main.c.s
-
-philosophers.o: philosophers.c.o
-
-.PHONY : philosophers.o
+.PHONY : philo_one/philosophers.o
 
 # target to build an object file
-philosophers.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Philosophers.dir/build.make CMakeFiles/Philosophers.dir/philosophers.c.o
-.PHONY : philosophers.c.o
+philo_one/philosophers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.o
+.PHONY : philo_one/philosophers.c.o
 
-philosophers.i: philosophers.c.i
+philo_one/philosophers.i: philo_one/philosophers.c.i
 
-.PHONY : philosophers.i
+.PHONY : philo_one/philosophers.i
 
 # target to preprocess a source file
-philosophers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Philosophers.dir/build.make CMakeFiles/Philosophers.dir/philosophers.c.i
-.PHONY : philosophers.c.i
+philo_one/philosophers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.i
+.PHONY : philo_one/philosophers.c.i
 
-philosophers.s: philosophers.c.s
+philo_one/philosophers.s: philo_one/philosophers.c.s
 
-.PHONY : philosophers.s
+.PHONY : philo_one/philosophers.s
 
 # target to generate assembly for a file
-philosophers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Philosophers.dir/build.make CMakeFiles/Philosophers.dir/philosophers.c.s
-.PHONY : philosophers.c.s
+philo_one/philosophers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.s
+.PHONY : philo_one/philosophers.c.s
+
+utility/init.o: utility/init.c.o
+
+.PHONY : utility/init.o
+
+# target to build an object file
+utility/init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/init.c.o
+.PHONY : utility/init.c.o
+
+utility/init.i: utility/init.c.i
+
+.PHONY : utility/init.i
+
+# target to preprocess a source file
+utility/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/init.c.i
+.PHONY : utility/init.c.i
+
+utility/init.s: utility/init.c.s
+
+.PHONY : utility/init.s
+
+# target to generate assembly for a file
+utility/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/init.c.s
+.PHONY : utility/init.c.s
+
+utility/utils.o: utility/utils.c.o
+
+.PHONY : utility/utils.o
+
+# target to build an object file
+utility/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/utils.c.o
+.PHONY : utility/utils.c.o
+
+utility/utils.i: utility/utils.c.i
+
+.PHONY : utility/utils.i
+
+# target to preprocess a source file
+utility/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/utils.c.i
+.PHONY : utility/utils.c.i
+
+utility/utils.s: utility/utils.c.s
+
+.PHONY : utility/utils.s
+
+# target to generate assembly for a file
+utility/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/utils.c.s
+.PHONY : utility/utils.c.s
 
 # Help Target
 help:
@@ -204,13 +231,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Philosophers"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... philosophers.o"
-	@echo "... philosophers.i"
-	@echo "... philosophers.s"
+	@echo "... _Philosophers"
+	@echo "... philo_one/philosophers.o"
+	@echo "... philo_one/philosophers.i"
+	@echo "... philo_one/philosophers.s"
+	@echo "... utility/init.o"
+	@echo "... utility/init.i"
+	@echo "... utility/init.s"
+	@echo "... utility/utils.o"
+	@echo "... utility/utils.i"
+	@echo "... utility/utils.s"
 .PHONY : help
 
 
