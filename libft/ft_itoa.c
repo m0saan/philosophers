@@ -37,7 +37,7 @@ static	int	ft_intlen(long x)
 	return (1);
 }
 
-char		*ft_itoa_neg(int n)
+char		*ft_itoa_neg(uint64_t n)
 {
 	int				i;
 	unsigned		sign;

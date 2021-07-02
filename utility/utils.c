@@ -17,3 +17,14 @@ t_bool is_valid_str_numeric(const char *arg)
 			return (false);
 	return (true);
 }
+
+uint64_t get_time()
+{
+	struct timeval	time;
+	gettimeofday(&time, NULL);
+	/*
+	 * tv_sec // seconds since Jan. 1, 1970.
+	 * tv_usec // and microseconds.
+	 */
+	return (time.tv_sec * 1000);
+}

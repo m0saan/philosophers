@@ -7,5 +7,5 @@ add_executable(_Philosophers philo_one/philosophers.c philosophers.h utility/uti
 
 target_link_libraries(_Philosophers ${CMAKE_SOURCE_DIR}/libft/libft.a)
 
-set(GCC_COVERAGE_COMPILE_FLAGS "-Wall -Wextra -O0 -fsanitize=address -g3")
+set(GCC_COVERAGE_COMPILE_FLAGS "-Wall -Wextra -O0 -fsanitize=address -g3 -pthread")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")

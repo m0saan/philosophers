@@ -6,11 +6,11 @@
 # include <pthread.h>
 # include <sys/time.h>
 #include <string.h>
-# include "utility/utils.h"
 
 typedef struct s_philo
 {
 	int				id;
+	uint64_t		start;
 	u_int64_t		last_eat;
 	int 			total_eat;
 	pthread_mutex_t	lock;
@@ -28,7 +28,9 @@ typedef struct	s_state
 	pthread_mutex_t write;
 	pthread_mutex_t lock;
 	t_philo			*philo;
+	int 			flag;
 }				t_state;
 
+t_state state;
 
 #endif

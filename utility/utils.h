@@ -20,8 +20,9 @@ typedef enum e_bool
 typedef char * t_string;
 
 int		exit_error(char const *str);
-t_bool init(t_state *state, int ac, const char **av);
-t_bool	init_data(t_state *state, int ac, const char **av);
+t_bool init(int ac, const char **av);
+t_bool	init_data(int ac, const char **av);
 t_bool is_valid_str_numeric(const char *arg);
+uint64_t get_time();
 
 #endif
