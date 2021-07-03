@@ -8,12 +8,14 @@ void	out(t_philo *philo, uint64_t time, int action, const char *msg)
 	pthread_mutex_unlock(&state.write);
 }
 
-void lock_and_output(int act, int which) {
+uint64_t lock_and_output(int act, int which) {
 	uint64_t time;
 
 	pthread_mutex_lock(&state.philo[which].lock);
 	time = get_time();
 	out(&state.philo[which], time, act, " has taken a fork");
+	dprintf(2, "%d\n", which);
+	return (time);
 }
 
 uint64_t handle_forks(int l, int r)
@@ -21,13 +23,8 @@ uint64_t handle_forks(int l, int r)
 	uint64_t time;
 
 	pthread_mutex_lock(&state.lock);    // lock.
-	pthread_mutex_lock(&state.philo[r].lock);
-	time = get_time();
-	out(&state.philo[l], time, l, " has taken a fork");
-	pthread_mutex_lock(&state.philo[l].lock);
-	time = get_time();
-	out(&state.philo[l], time, l, " has taken a fork");
-	printf("forks: [%d-%d]\n", l, r);
+	lock_and_output(l, r);
+	time = lock_and_output(l, l);
 	pthread_mutex_unlock(&state.lock); // unlock.
 	return (time);
 

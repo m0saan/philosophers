@@ -9,6 +9,6 @@
 
 #define TO_MICRO_SEC 1000
 
-void lock_and_output(int act, int which);
+uint64_t lock_and_output(int act, int which);
 
 #endif

@@ -26,5 +26,5 @@ uint64_t get_time()
 	 * tv_sec // seconds since Jan. 1, 1970.
 	 * tv_usec // and microseconds.
 	 */
-	return (time.tv_sec * 1000);
+	return (time.tv_sec * 1000) + (time.tv_usec / 1000);
 }
