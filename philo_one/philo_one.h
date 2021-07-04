@@ -9,6 +9,6 @@
 
 #define TO_MICRO_SEC 1000
 
-uint64_t lock_and_output(int act, int which);
+uint64_t lock_and_output(int current_philo_index, int which_to_lock);
 
 #endif

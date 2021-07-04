@@ -27,6 +27,7 @@ t_bool init(int ac, const char **av)
 	pthread_mutex_init(&state.write, NULL);
 	pthread_mutex_init(&state.lock, NULL);
 	state.philo = malloc(sizeof(t_philo) * state.num_of_philos);
+	state.forks = malloc(sizeof(pthread_mutex_t) * state.num_of_philos);
 	if (state.philo == NULL)
 		return (false);
 	i = -1;
@@ -35,10 +36,9 @@ t_bool init(int ac, const char **av)
 	while(++i < state.num_of_philos)
 	{
 		state.philo[i].id = i;
-		state.philo[i].start = time;
 		state.philo[i].last_eat = time;
 		state.philo[i].total_eat = 0;
-		pthread_mutex_init(&state.philo[i].lock, NULL);
+		pthread_mutex_init(&state.forks[i], NULL);
 	}
 	return (true);
 }

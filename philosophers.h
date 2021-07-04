@@ -10,11 +10,10 @@
 typedef struct s_philo
 {
 	int				id;
-	uint64_t		start;
 	u_int64_t		last_eat;
 	int 			total_eat;
-	pthread_mutex_t	lock;
 	pthread_t		pthread;
+	uint8_t 		is_eating;
 }				t_philo;
 
 typedef struct	s_state
@@ -28,6 +27,7 @@ typedef struct	s_state
 	pthread_mutex_t write;
 	pthread_mutex_t lock;
 	t_philo			*philo;
+	pthread_mutex_t *forks;
 	int 			flag;
 }				t_state;
 
