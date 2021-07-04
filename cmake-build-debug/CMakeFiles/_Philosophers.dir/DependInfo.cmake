@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/moboustt/Desktop/_Philosophers/philo_one/philosophers.c" "/Users/moboustt/Desktop/_Philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.o"
-  "/Users/moboustt/Desktop/_Philosophers/utility/init.c" "/Users/moboustt/Desktop/_Philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/utility/init.c.o"
-  "/Users/moboustt/Desktop/_Philosophers/utility/utils.c" "/Users/moboustt/Desktop/_Philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/utility/utils.c.o"
+  "/Users/moboustt/Desktop/1337/philosophers/philo_one/philosophers.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.o"
+  "/Users/moboustt/Desktop/1337/philosophers/utility/init.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/utility/init.c.o"
+  "/Users/moboustt/Desktop/1337/philosophers/utility/utils.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/utility/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
