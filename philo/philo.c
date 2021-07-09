@@ -1,8 +1,7 @@
 #include "philo.h"
 #include <stdio.h>
-int			G_t_eat;
 
-void    my_usleep(uint64_t time)
+void	my_usleep(uint64_t time)
 {
 	uint64_t	time_before;
 
@@ -31,12 +30,12 @@ void	*routine(void *param)
 	return (EXIT_SUCCESS);
 }
 
-int loop(int ac)
+int	loop(int ac)
 {
 	int			i;
 	uint64_t	time;
 	t_bool		flag;
-	int		stop_simulation;
+	int			stop_simulation;
 
 	while (true)
 	{

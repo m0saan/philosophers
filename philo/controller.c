@@ -8,7 +8,7 @@ t_bool	controller(int ac, int i, uint64_t time, t_bool *flag)
 	stop_simulation = false;
 	while (++i < state.num_of_philos)
 	{
-		if (state.philo[i].is_eating)
+		if (state.philo[i].is_eating && state.num_of_philos != 1)
 			continue ;
 		if (ac == 6 && (*flag) && (state.philo[i].total_eat / \
 		state.time_to_eat) > state.n_times_must_eat)
