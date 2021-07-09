@@ -142,86 +142,194 @@ _Philosophers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/build
 .PHONY : _Philosophers/fast
 
-philo_one/philosophers.o: philo_one/philosophers.c.o
+philo/controller.o: philo/controller.c.o
 
-.PHONY : philo_one/philosophers.o
-
-# target to build an object file
-philo_one/philosophers.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.o
-.PHONY : philo_one/philosophers.c.o
-
-philo_one/philosophers.i: philo_one/philosophers.c.i
-
-.PHONY : philo_one/philosophers.i
-
-# target to preprocess a source file
-philo_one/philosophers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.i
-.PHONY : philo_one/philosophers.c.i
-
-philo_one/philosophers.s: philo_one/philosophers.c.s
-
-.PHONY : philo_one/philosophers.s
-
-# target to generate assembly for a file
-philo_one/philosophers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.s
-.PHONY : philo_one/philosophers.c.s
-
-utility/init.o: utility/init.c.o
-
-.PHONY : utility/init.o
+.PHONY : philo/controller.o
 
 # target to build an object file
-utility/init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/init.c.o
-.PHONY : utility/init.c.o
+philo/controller.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/controller.c.o
+.PHONY : philo/controller.c.o
 
-utility/init.i: utility/init.c.i
+philo/controller.i: philo/controller.c.i
 
-.PHONY : utility/init.i
+.PHONY : philo/controller.i
 
 # target to preprocess a source file
-utility/init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/init.c.i
-.PHONY : utility/init.c.i
+philo/controller.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/controller.c.i
+.PHONY : philo/controller.c.i
 
-utility/init.s: utility/init.c.s
+philo/controller.s: philo/controller.c.s
 
-.PHONY : utility/init.s
+.PHONY : philo/controller.s
 
 # target to generate assembly for a file
-utility/init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/init.c.s
-.PHONY : utility/init.c.s
+philo/controller.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/controller.c.s
+.PHONY : philo/controller.c.s
 
-utility/utils.o: utility/utils.c.o
+philo/philo.o: philo/philo.c.o
 
-.PHONY : utility/utils.o
+.PHONY : philo/philo.o
 
 # target to build an object file
-utility/utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/utils.c.o
-.PHONY : utility/utils.c.o
+philo/philo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/philo.c.o
+.PHONY : philo/philo.c.o
 
-utility/utils.i: utility/utils.c.i
+philo/philo.i: philo/philo.c.i
 
-.PHONY : utility/utils.i
+.PHONY : philo/philo.i
 
 # target to preprocess a source file
-utility/utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/utils.c.i
-.PHONY : utility/utils.c.i
+philo/philo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/philo.c.i
+.PHONY : philo/philo.c.i
 
-utility/utils.s: utility/utils.c.s
+philo/philo.s: philo/philo.c.s
 
-.PHONY : utility/utils.s
+.PHONY : philo/philo.s
 
 # target to generate assembly for a file
-utility/utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/utility/utils.c.s
-.PHONY : utility/utils.c.s
+philo/philo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/philo.c.s
+.PHONY : philo/philo.c.s
+
+philo/utility/ft_atoi.o: philo/utility/ft_atoi.c.o
+
+.PHONY : philo/utility/ft_atoi.o
+
+# target to build an object file
+philo/utility/ft_atoi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_atoi.c.o
+.PHONY : philo/utility/ft_atoi.c.o
+
+philo/utility/ft_atoi.i: philo/utility/ft_atoi.c.i
+
+.PHONY : philo/utility/ft_atoi.i
+
+# target to preprocess a source file
+philo/utility/ft_atoi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_atoi.c.i
+.PHONY : philo/utility/ft_atoi.c.i
+
+philo/utility/ft_atoi.s: philo/utility/ft_atoi.c.s
+
+.PHONY : philo/utility/ft_atoi.s
+
+# target to generate assembly for a file
+philo/utility/ft_atoi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_atoi.c.s
+.PHONY : philo/utility/ft_atoi.c.s
+
+philo/utility/ft_isdigit.o: philo/utility/ft_isdigit.c.o
+
+.PHONY : philo/utility/ft_isdigit.o
+
+# target to build an object file
+philo/utility/ft_isdigit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_isdigit.c.o
+.PHONY : philo/utility/ft_isdigit.c.o
+
+philo/utility/ft_isdigit.i: philo/utility/ft_isdigit.c.i
+
+.PHONY : philo/utility/ft_isdigit.i
+
+# target to preprocess a source file
+philo/utility/ft_isdigit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_isdigit.c.i
+.PHONY : philo/utility/ft_isdigit.c.i
+
+philo/utility/ft_isdigit.s: philo/utility/ft_isdigit.c.s
+
+.PHONY : philo/utility/ft_isdigit.s
+
+# target to generate assembly for a file
+philo/utility/ft_isdigit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_isdigit.c.s
+.PHONY : philo/utility/ft_isdigit.c.s
+
+philo/utility/ft_strlen.o: philo/utility/ft_strlen.c.o
+
+.PHONY : philo/utility/ft_strlen.o
+
+# target to build an object file
+philo/utility/ft_strlen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_strlen.c.o
+.PHONY : philo/utility/ft_strlen.c.o
+
+philo/utility/ft_strlen.i: philo/utility/ft_strlen.c.i
+
+.PHONY : philo/utility/ft_strlen.i
+
+# target to preprocess a source file
+philo/utility/ft_strlen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_strlen.c.i
+.PHONY : philo/utility/ft_strlen.c.i
+
+philo/utility/ft_strlen.s: philo/utility/ft_strlen.c.s
+
+.PHONY : philo/utility/ft_strlen.s
+
+# target to generate assembly for a file
+philo/utility/ft_strlen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/ft_strlen.c.s
+.PHONY : philo/utility/ft_strlen.c.s
+
+philo/utility/init.o: philo/utility/init.c.o
+
+.PHONY : philo/utility/init.o
+
+# target to build an object file
+philo/utility/init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/init.c.o
+.PHONY : philo/utility/init.c.o
+
+philo/utility/init.i: philo/utility/init.c.i
+
+.PHONY : philo/utility/init.i
+
+# target to preprocess a source file
+philo/utility/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/init.c.i
+.PHONY : philo/utility/init.c.i
+
+philo/utility/init.s: philo/utility/init.c.s
+
+.PHONY : philo/utility/init.s
+
+# target to generate assembly for a file
+philo/utility/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/init.c.s
+.PHONY : philo/utility/init.c.s
+
+philo/utility/utils.o: philo/utility/utils.c.o
+
+.PHONY : philo/utility/utils.o
+
+# target to build an object file
+philo/utility/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/utils.c.o
+.PHONY : philo/utility/utils.c.o
+
+philo/utility/utils.i: philo/utility/utils.c.i
+
+.PHONY : philo/utility/utils.i
+
+# target to preprocess a source file
+philo/utility/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/utils.c.i
+.PHONY : philo/utility/utils.c.i
+
+philo/utility/utils.s: philo/utility/utils.c.s
+
+.PHONY : philo/utility/utils.s
+
+# target to generate assembly for a file
+philo/utility/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/utility/utils.c.s
+.PHONY : philo/utility/utils.c.s
 
 # Help Target
 help:
@@ -232,15 +340,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... _Philosophers"
-	@echo "... philo_one/philosophers.o"
-	@echo "... philo_one/philosophers.i"
-	@echo "... philo_one/philosophers.s"
-	@echo "... utility/init.o"
-	@echo "... utility/init.i"
-	@echo "... utility/init.s"
-	@echo "... utility/utils.o"
-	@echo "... utility/utils.i"
-	@echo "... utility/utils.s"
+	@echo "... philo/controller.o"
+	@echo "... philo/controller.i"
+	@echo "... philo/controller.s"
+	@echo "... philo/philo.o"
+	@echo "... philo/philo.i"
+	@echo "... philo/philo.s"
+	@echo "... philo/utility/ft_atoi.o"
+	@echo "... philo/utility/ft_atoi.i"
+	@echo "... philo/utility/ft_atoi.s"
+	@echo "... philo/utility/ft_isdigit.o"
+	@echo "... philo/utility/ft_isdigit.i"
+	@echo "... philo/utility/ft_isdigit.s"
+	@echo "... philo/utility/ft_strlen.o"
+	@echo "... philo/utility/ft_strlen.i"
+	@echo "... philo/utility/ft_strlen.s"
+	@echo "... philo/utility/init.o"
+	@echo "... philo/utility/init.i"
+	@echo "... philo/utility/init.s"
+	@echo "... philo/utility/utils.o"
+	@echo "... philo/utility/utils.i"
+	@echo "... philo/utility/utils.s"
 .PHONY : help
 
 

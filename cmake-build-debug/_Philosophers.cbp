@@ -78,22 +78,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo_one/philo_one.h">
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/controller.c">
 			<Option target="_Philosophers"/>
 		</Unit>
-		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo_one/philosophers.c">
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/philo.c">
+			<Option target="_Philosophers"/>
+		</Unit>
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/philo.h">
+			<Option target="_Philosophers"/>
+		</Unit>
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/utility/ft_atoi.c">
+			<Option target="_Philosophers"/>
+		</Unit>
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/utility/ft_isdigit.c">
+			<Option target="_Philosophers"/>
+		</Unit>
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/utility/ft_strlen.c">
+			<Option target="_Philosophers"/>
+		</Unit>
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/utility/init.c">
+			<Option target="_Philosophers"/>
+		</Unit>
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/utility/utils.c">
+			<Option target="_Philosophers"/>
+		</Unit>
+		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philo/utility/utils.h">
 			<Option target="_Philosophers"/>
 		</Unit>
 		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/philosophers.h">
-			<Option target="_Philosophers"/>
-		</Unit>
-		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/utility/init.c">
-			<Option target="_Philosophers"/>
-		</Unit>
-		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/utility/utils.c">
-			<Option target="_Philosophers"/>
-		</Unit>
-		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/utility/utils.h">
 			<Option target="_Philosophers"/>
 		</Unit>
 		<Unit filename="/Users/moboustt/Desktop/1337/philosophers/CMakeLists.txt">

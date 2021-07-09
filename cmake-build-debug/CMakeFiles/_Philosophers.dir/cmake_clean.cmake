@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/_Philosophers.dir/philo_one/philosophers.c.o"
-  "CMakeFiles/_Philosophers.dir/utility/init.c.o"
-  "CMakeFiles/_Philosophers.dir/utility/utils.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/controller.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/philo.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/utility/ft_atoi.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/utility/ft_isdigit.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/utility/ft_strlen.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/utility/init.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/utility/utils.c.o"
   "_Philosophers"
   "_Philosophers.pdb"
 )

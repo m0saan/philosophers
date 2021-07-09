@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/moboustt/Desktop/1337/philosophers/libft/libft.h
-unistd.h
--
-string.h
--
+/Users/moboustt/Desktop/1337/philosophers/philo/utility/ft_atoi.c
+utils.h
+/Users/moboustt/Desktop/1337/philosophers/philo/utility/utils.h
+
+/Users/moboustt/Desktop/1337/philosophers/philo/utility/utils.h
 stdlib.h
 -
+unistd.h
+-
+pthread.h
+-
+../../philo_one.h
+/Users/moboustt/Desktop/1337/philosophers/philo_one.h
 
-/Users/moboustt/Desktop/1337/philosophers/philosophers.h
+/Users/moboustt/Desktop/1337/philosophers/philo_one.h
 stdlib.h
 -
 unistd.h
@@ -25,20 +31,4 @@ sys/time.h
 -
 string.h
 -
-
-/Users/moboustt/Desktop/1337/philosophers/utility/init.c
-utils.h
-/Users/moboustt/Desktop/1337/philosophers/utility/utils.h
-
-/Users/moboustt/Desktop/1337/philosophers/utility/utils.h
-stdlib.h
--
-unistd.h
--
-pthread.h
--
-../libft/libft.h
-/Users/moboustt/Desktop/1337/philosophers/libft/libft.h
-../philosophers.h
-/Users/moboustt/Desktop/1337/philosophers/philosophers.h
 
