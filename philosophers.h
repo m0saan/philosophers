@@ -11,7 +11,7 @@ typedef struct s_philo
 {
 	int				id;
 	u_int64_t		last_eat;
-	int 			total_eat;
+	uint64_t 		total_eat;
 	pthread_t		pthread;
 	uint8_t 		is_eating;
 }				t_philo;
@@ -23,6 +23,8 @@ typedef struct	s_state
 	uint64_t	time_to_eat;
 	uint64_t	time_to_sleep;
 	uint64_t	n_times_must_eat;
+	uint64_t	g_time;
+
 
 	pthread_mutex_t write;
 	pthread_mutex_t lock;

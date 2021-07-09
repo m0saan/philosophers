@@ -1,11 +1,11 @@
 #include "utils.h"
 
-t_bool init_data(int ac, const char **av)
+t_bool	init_data(int ac, const char **av)
 {
 	int		i;
 
 	i = 0;
-	while(++i < ac)
+	while (++i < ac)
 		if (!is_valid_str_numeric(av[i]))
 			return (false);
 	state.num_of_philos = ft_atoi(av[1]);
@@ -17,7 +17,7 @@ t_bool init_data(int ac, const char **av)
 	return (true);
 }
 
-t_bool init(int ac, const char **av)
+t_bool	init(int ac, const char **av)
 {
 	int			i;
 	uint64_t	time;
@@ -33,7 +33,8 @@ t_bool init(int ac, const char **av)
 	i = -1;
 	++state.flag;
 	time = get_time();
-	while(++i < state.num_of_philos)
+	state.g_time = time;
+	while (++i < state.num_of_philos)
 	{
 		state.philo[i].id = i;
 		state.philo[i].last_eat = time;

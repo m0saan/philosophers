@@ -1,10 +1,11 @@
 # -*- This is a Makefile -*-
 
-NAME=philo_one
+NAME=philo
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror
 
-SRCS= utility/init.c utility/utils.c utility/ft_atoi.c utility/ft_strlen.c  utility/ft_isdigit.c philo_one.c
+SRCS= utility/init.c utility/utils.c utility/ft_atoi.c utility/ft_strlen.c \
+utility/ft_isdigit.c philo/philo.c philo/controller.c philo/eat.c philo/sleep.c
 
 all: $(NAME)
 

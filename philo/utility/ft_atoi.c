@@ -6,7 +6,7 @@
 /*   By: moboustt <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/15 23:07:48 by moboustt          #+#    #+#             */
-/*   Updated: 2019/10/28 19:15:19 by moboustt         ###   ########.fr       */
+/*   Updated: 2021/07/09 10:51:44 by moboustt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static	int	ft_res(char const *str, int i)
 	return (result);
 }
 
-int			ft_atoi(const char *s)
+int	ft_atoi(const char *s)
 {
 	int		i;
 	int		rc;
