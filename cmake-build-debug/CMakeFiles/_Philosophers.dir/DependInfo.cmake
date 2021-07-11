@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/moboustt/Desktop/1337/philosophers/philo/controller.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/controller.c.o"
-  "/Users/moboustt/Desktop/1337/philosophers/philo/philo.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/philo.c.o"
-  "/Users/moboustt/Desktop/1337/philosophers/philo/utility/ft_atoi.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/ft_atoi.c.o"
-  "/Users/moboustt/Desktop/1337/philosophers/philo/utility/ft_isdigit.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/ft_isdigit.c.o"
-  "/Users/moboustt/Desktop/1337/philosophers/philo/utility/ft_strlen.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/ft_strlen.c.o"
-  "/Users/moboustt/Desktop/1337/philosophers/philo/utility/init.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/init.c.o"
-  "/Users/moboustt/Desktop/1337/philosophers/philo/utility/utils.c" "/Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/utils.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/controller.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/controller.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/eat.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/eat.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/philo.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/philo.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/sleep.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/sleep.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/utility/ft_atoi.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/ft_atoi.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/utility/ft_isdigit.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/ft_isdigit.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/utility/ft_strlen.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/ft_strlen.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/utility/init.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/init.c.o"
+  "/Users/moboustt/Desktop/1337/filos/ss/philo/utility/utils.c" "/Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles/_Philosophers.dir/philo/utility/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

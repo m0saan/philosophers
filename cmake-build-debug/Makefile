@@ -67,10 +67,10 @@ RM = /goinfre/moboustt/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/moboustt/Desktop/1337/philosophers
+CMAKE_SOURCE_DIR = /Users/moboustt/Desktop/1337/filos/ss
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/moboustt/Desktop/1337/philosophers/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles /Users/moboustt/Desktop/1337/philosophers/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles /Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/Desktop/1337/philosophers/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moboustt/Desktop/1337/filos/ss/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,33 @@ philo/controller.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/controller.c.s
 .PHONY : philo/controller.c.s
 
+philo/eat.o: philo/eat.c.o
+
+.PHONY : philo/eat.o
+
+# target to build an object file
+philo/eat.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/eat.c.o
+.PHONY : philo/eat.c.o
+
+philo/eat.i: philo/eat.c.i
+
+.PHONY : philo/eat.i
+
+# target to preprocess a source file
+philo/eat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/eat.c.i
+.PHONY : philo/eat.c.i
+
+philo/eat.s: philo/eat.c.s
+
+.PHONY : philo/eat.s
+
+# target to generate assembly for a file
+philo/eat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/eat.c.s
+.PHONY : philo/eat.c.s
+
 philo/philo.o: philo/philo.c.o
 
 .PHONY : philo/philo.o
@@ -195,6 +222,33 @@ philo/philo.s: philo/philo.c.s
 philo/philo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/philo.c.s
 .PHONY : philo/philo.c.s
+
+philo/sleep.o: philo/sleep.c.o
+
+.PHONY : philo/sleep.o
+
+# target to build an object file
+philo/sleep.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/sleep.c.o
+.PHONY : philo/sleep.c.o
+
+philo/sleep.i: philo/sleep.c.i
+
+.PHONY : philo/sleep.i
+
+# target to preprocess a source file
+philo/sleep.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/sleep.c.i
+.PHONY : philo/sleep.c.i
+
+philo/sleep.s: philo/sleep.c.s
+
+.PHONY : philo/sleep.s
+
+# target to generate assembly for a file
+philo/sleep.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_Philosophers.dir/build.make CMakeFiles/_Philosophers.dir/philo/sleep.c.s
+.PHONY : philo/sleep.c.s
 
 philo/utility/ft_atoi.o: philo/utility/ft_atoi.c.o
 
@@ -343,9 +397,15 @@ help:
 	@echo "... philo/controller.o"
 	@echo "... philo/controller.i"
 	@echo "... philo/controller.s"
+	@echo "... philo/eat.o"
+	@echo "... philo/eat.i"
+	@echo "... philo/eat.s"
 	@echo "... philo/philo.o"
 	@echo "... philo/philo.i"
 	@echo "... philo/philo.s"
+	@echo "... philo/sleep.o"
+	@echo "... philo/sleep.i"
+	@echo "... philo/sleep.s"
 	@echo "... philo/utility/ft_atoi.o"
 	@echo "... philo/utility/ft_atoi.i"
 	@echo "... philo/utility/ft_atoi.s"

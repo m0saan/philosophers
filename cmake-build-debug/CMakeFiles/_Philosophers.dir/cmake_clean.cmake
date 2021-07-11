@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/_Philosophers.dir/philo/controller.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/eat.c.o"
   "CMakeFiles/_Philosophers.dir/philo/philo.c.o"
+  "CMakeFiles/_Philosophers.dir/philo/sleep.c.o"
   "CMakeFiles/_Philosophers.dir/philo/utility/ft_atoi.c.o"
   "CMakeFiles/_Philosophers.dir/philo/utility/ft_isdigit.c.o"
   "CMakeFiles/_Philosophers.dir/philo/utility/ft_strlen.c.o"
