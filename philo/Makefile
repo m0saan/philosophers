@@ -9,12 +9,12 @@ SRCS= utility/init.c utility/utils.c utility/ft_atoi.c utility/ft_strlen.c utili
 all: $(NAME)
 
 $(NAME):$(SRCS)
-	$(CC) $(CFLAGS) -o $(NAME) $(SRCS)
+	$(CC) $(CFLAGS) -o $(NAME) $(SRCS) -Ofast -pthread
 
 clean:
 	@ rm -rf $(NAME)
 
-fclean:
+fclean: clean
 
 re: fclean all
 
