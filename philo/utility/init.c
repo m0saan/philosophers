@@ -1,6 +1,6 @@
 #include "utils.h"
 
-t_bool init_data(int ac, const char **av, t_state *state)
+t_bool	init_data(int ac, const char **av, t_state *state)
 {
 	int		i;
 
@@ -18,10 +18,12 @@ t_bool init_data(int ac, const char **av, t_state *state)
 		if (state->n_times_must_eat == 0)
 			state->n_times_must_eat = NO_EAT;
 	}
+	if (state->num_of_philos == 0)
+		return (false);
 	return (true);
 }
 
-t_bool init(int ac, const char **av, t_state *state, t_philo **philo)
+t_bool	init(int ac, const char **av, t_state *state, t_philo **philo)
 {
 	int			i;
 	uint64_t	time;
